@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DeltaCoin Services</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start DeltaCoin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#BuyDTC">AchatDTC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#SellDTC">VenteDTC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#SendAccount">Envoie compte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#SendNode">Envoie reseau</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Bienvenue sur le Plate-Forme Officiel de DeltaCoin</h1>
+        <p class="lead">Achetez, Vendez ou Envoyez des DeltaCoin partout dans le monde</p>
+      </div>
+    </header>
+
+    <section id="BuyDTC">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form action="#" method="post">
+      				<h2>Achat DeltaCoin</h2>
+      				<p>
+      					<label for="Email" class="floatLabel">Montant Ether</label>
+      					<input id="BuyEtherValue" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">Revenue DTC</label>
+      					<input id="BuyDTCrValue" name="Email" type="text">
+      				</p>
+      				<p>
+      					<input type="submit" value="Acheter" id="submitBuy">
+      				</p>
+      			</form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="SellDTC" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form action="#" method="post">
+      				<h2>Vente DeltaCoin</h2>
+      				<p>
+      					<label for="Email" class="floatLabel">Montant DTC</label>
+      					<input id="SellDTCValue" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">Revenue Ether</label>
+      					<input id="SellEtherValue" name="Email" type="text">
+      				</p>
+      				<p>
+      					<input type="submit" value="Vendre" id="submit">
+      				</p>
+      			</form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="SendAccount">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form action="#" method="post">
+      				<h2>Envoie compte à compte</h2>
+      				<p>
+      					<label for="Email" class="floatLabel">Adresse destinataire</label>
+      					<input id="addressRecever" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">Montant DTC</label>
+      					<input id="amountSendAccount" name="Email" type="text">
+      				</p>
+      				<p>
+      					<input type="submit" value="Acheter" id="submitSendAccount">
+      				</p>
+      			</form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="SendNode" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form action="#" method="post">
+      				<h2>Envoie réseau</h2>
+      				<p>
+      					<label for="Email" class="floatLabel">Nom du destinataire</label>
+      					<input id="nom" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">Prenom du destinataire</label>
+      					<input id="prenom" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">CIN du destinataire</label>
+      					<input id="cin" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">Montant à envoyer</label>
+      					<input id="amountSendNode" name="Email" type="text">
+      				</p>
+      				<p>
+      					<label for="Email" class="floatLabel">Phrase secret</label>
+      					<input id="secret" name="Email" type="text">
+      				</p>
+      				<p>
+      					<input type="submit" value="Envoyer" id="submitSendNode">
+      				</p>
+      			</form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
