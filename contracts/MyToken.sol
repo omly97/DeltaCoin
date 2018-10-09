@@ -17,10 +17,10 @@ contract TokenERC20 {
     uint256 public buyPrice;
 
     // This creates an array with all balances
-    mapping (address => uint256) public balanceOf;
+    mapping (address => uint256) balanceOf;
 
     // Distributeur ==W> Echange coin et cfa
-    mapping (address => bool) public isDistributor;
+    mapping (address => bool) isDistributor;
     uint256 public distributorCount;
 
     // Retryer without account
